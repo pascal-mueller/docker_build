@@ -13,7 +13,7 @@
 Make a POST request to the `/orders/businesscard` endpoint. It expects a JSON
 object with a `name` and `brand` property.
 
-E.g.
+E.g. (**Adjust PORT if needed**)
 
 `curl -H "Content-Type: application/json" -d '{"name": "John Doe", \ 
- "brand": "Feldschlösschen"}' -I http://localhost:3000/orders/businesscard`
+ "brand": "Feldschlösschen"}' -i http://localhost:4000/orders/businesscard`
