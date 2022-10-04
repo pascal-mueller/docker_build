@@ -15,5 +15,4 @@ object with a `name` and `brand` property.
 
 E.g. (**Adjust PORT if needed**)
 
-`curl -H "Content-Type: application/json" -d '{"name": "John Doe", \ 
- "brand": "Feldschlösschen"}' -i http://localhost:4000/orders/businesscard`
+`curl -H "Content-Type: application/json" -d '{"name": "John Doe", "brand": "Feldschlösschen"}' -i http://localhost:4000/orders/businesscard`
