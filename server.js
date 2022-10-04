@@ -14,9 +14,14 @@ app.get('/', (req, res) => {
 // orders/businesscard
 app.post('/orders/businesscard', (req, res) => {
   data = req.body // ATTENTION: Unvalidated user input!
+
   msg = data.brand + " Visitenkarte für " + data.name + " ist bestellt."
 
-  res.send(msg)
+  payload = {
+    "message" : msg
+  }
+
+  res.json(payload)
 })
 
 // Start server
