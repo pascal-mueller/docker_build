@@ -11,8 +11,7 @@
 
 # Installation from DockerHub
 Just use `pascaldmueller/docker_build_exercise:latest` to get the image. E.g.
-`docker run --rm --name order-business-card-service -e PORT=4000 -p 4000:
-4000 pascaldmueller/docker_build_exercise:latest`
+`docker run --rm --name order-business-card-service -e PORT=4000 -p 4000:4000 pascaldmueller/docker_build_exercise:latest`
 
 # Usage
 Make a POST request to the `/orders/businesscard` endpoint. It expects a JSON
