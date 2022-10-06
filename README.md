@@ -9,6 +9,11 @@
 2. Run the image: `docker run -e PORT=3000 -p 4000:3000 -d "docker_build_exercise"`
 3. Test the app: `curl localhost:4000`
 
+# Installation from DockerHub
+Just use `pascaldmueller/docker_build_exercise:latest` to get the image. E.g.
+`docker run --rm --name order-business-card-service -e PORT=4000 -p 4000:
+4000 pascaldmueller/docker_build_exercise:latest`
+
 # Usage
 Make a POST request to the `/orders/businesscard` endpoint. It expects a JSON
 object with a `name` and `brand` property.
